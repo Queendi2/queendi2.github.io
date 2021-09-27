@@ -1,9 +1,43 @@
-@media only screen and (max-width: 600px) {
+body{
+    background-image: url('blackcar.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: auto;
+  
+}
+.meniu{
+    flex: 1;
+    background-color: rgba(100, 100, 97, 0.438);
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
 
 
-    [class*="col-"] 
-    {
-        width: 100%;
+}
+.nuoroda{
+    margin: 30px;
+}
+.Apiemus h1{
+    color:white;
+    margin-right: 50px;
+
+  
+
+ 
+
+}
+.Paslaugos{
+    color: white;
+}
+.Paslaugu{
+    color: white;
     
-     }
-    }
+
+}
+.Kontaktai{
+    color: white;
+    
+
+}
